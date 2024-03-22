@@ -1,3 +1,43 @@
+
+var TicTac = document.getElementById("TicTac");
+TicTac.addEventListener("click", function() {
+  
+    window.open("https://iisshh17.github.io/Tic-Tac-Toe/", "_blank");
+});
+
+
+var FluffyB = document.getElementById("FluffyB");
+FluffyB.addEventListener("click", function() {
+  
+    window.open("https://vanshika345.github.io/FEWD-CA2/", "_blank");
+});
+
+var Numeron = document.getElementById("Numeron");
+Numeron.addEventListener("click", function() {
+  
+    window.open("https://vanshika345.github.io/Numeron-Game/" , "_blank");
+});
+
+var RPS = document.getElementById("RPS");
+RPS.addEventListener("click", function() {
+  
+    window.open("https://iisshh17.github.io/FEWD-Rock-Paper-Scissors/", "_blank");
+});
+
+var snake = document.getElementById("snake");
+snake.addEventListener("click", function() {
+  
+    window.open("https://codewithuday05.github.io/snakegame_project/", "_blank");
+});
+
+var zombie = document.getElementById("zombie");
+zombie.addEventListener("click", function() {
+  
+    window.open("https://vanshika345.github.io/Zombie-game/", "_blank");
+});
+
+
+
 $(document).ready(function(){
     // sidebar toggle
     $("#navbar-show-btn").click(() => $('.navbar-collapse').removeClass('translate-x-full'));
