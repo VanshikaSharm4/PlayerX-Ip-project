@@ -125,3 +125,9 @@ $(document).ready(function(){
         });
     })
 });
+
+
+function openFeedback() {
+    window.location.href = "mailto:vanshika1576.be23@chitkarauniversity.edu.in?subject=Website Feedback";
+}
+
